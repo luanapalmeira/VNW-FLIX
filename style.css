@@ -1,7 +1,18 @@
-header {
-  background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-  width: 15%;
+  width: 300px;
+}
+
+.card {
+  background-color: red;
+  border: 10px solid blue;
+}
+
+#btn2 {
+  background-color: green;
 }/*# sourceMappingURL=style.css.map */

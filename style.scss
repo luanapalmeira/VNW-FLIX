@@ -2,10 +2,24 @@
 //     propriedades: valor;
 // }
 
-header {
-    background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+//Selecionando por tag
 img {
-    width: 15%;
+  width: 300px;
+}
+
+//Selecionando por classe
+.card {
+    background-color: red;
+    border: 10px solid blue;
+}
+
+//Selecionando por ID
+#btn2 {
+    background-color: green;
 }
