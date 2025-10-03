@@ -9,9 +9,27 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+// Cores e tipografia
+
+header {
+  // cores em ingles:  red, green, yellow, pink
+  // RGB ( RED, GREEN, BLUE ) - Vermelho, verde e azul
+  // 0 a 255
+  // RGBA (RED, GREEN, BLUE, ALPHA)
+
+  background-color: rgba(0, 0, 255, 0.8);
+}
+
 //Seletor por tag
 h2 {
   color: red;
+  font-family: "Montserrat", sans-serif;
+  // Referente ao peso da fonte
+  font-weight: 400;
 }
 
 // Seletor por classe (class  é um seletor que podemos repetir/reutilizar)
@@ -20,6 +38,9 @@ h2 {
   border-radius: 10px;
   padding: 10px;
   width: 30vw;
+  // CORES
+  // Hexadecimal
+  background-color: #e0e1dd;
 
   img {
     // Se ajusta de acordo com a caixa pai
